@@ -1,6 +1,6 @@
 const logotext = "Prerna";
 const meta = {
-    title: "JPrerna Nanwani",
+    title: "Prerna Nanwani",
     description: "I’m Prena and I am a designer based in Ålesund, Norway",
 };
 
@@ -36,7 +36,7 @@ const worktimeline = [{
     },
     {
         jobtitle: "Primary School Teacher",
-        where: "IIDS",
+        where: "KidZee",
         date: "2020",
     },
     {
