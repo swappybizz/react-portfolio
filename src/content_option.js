@@ -1,75 +1,110 @@
-const logotext = "JOHN";
+const logotext = "Prerna";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "JPrerna Nanwani",
+    description: "I’m Prena and I am a designer based in Ålesund, Norway",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Prerna",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love Art & Design",
+        second: "I design cool websites",
+        third: "I am everthing Fashion!",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Contact me for all your design needs, I can convey your message through my designs",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I am a professionally trained designer, based in Norway with over 7 years of experiece in commercial design. I specialise in excecution of ideas.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "Lead UX",
+        where: "NoOffice AS",
+        date: "2023",
+    },
+    {
+        jobtitle: "UI/UX",
+        where: "ISOEnsure",
+        date: "2023",
+    },
+    {
+        jobtitle: "Fashion design Faculty",
+        where: "IIDS",
+        date: "2021",
+    },
+    {
+        jobtitle: "Primary School Teacher",
+        where: "IIDS",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Fashion Designer",
+        where: "Prerna's Design Studio",
+        date: "2016",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "Web Design",
+        value: 70,
     },
     {
-        name: "Djano",
+        name: "Figma",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Fashion Design",
+        value: 95,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Graphic Design",
+        value: 90,
     },
     {
-        name: "Jquery",
+        name: "Motion Graphics",
+        value: 70,
+    },
+    {
+        name: "Social Media Marketing",
+        value: 65,
+    },
+    {
+        name: "Strategy and Management",
+        value: 65,
+    },
+    {
+        name: "Strategy and Management",
+        value: 65,
+    },
+    {
+        name: "Patern making and Fabric Manipulation",
+        value: 85,
+    },
+    {
+        name: "Upcycling and Eco-Fashion",
         value: 85,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const services = [
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Design - SquareSpace, Webflow, Framer, Wordpress",
+        description: "Seamlessly Design and Deploy websites via popular webdesign providers and manage Projects effectively",
     },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+{
+    title: "UI & UX Design",
+    description: "Stunning rResponsive websites, mobile Apps and Dashboards",
+},
+{
+    title: "Design Systems and Branding",
+    description: "Synergetic Design Systems, Logos, Icons, Color schemes, Charecter Designs",
+},
+{
+    title: "Couture",
+    description: "Design Exceution, Project Management, Crochet, Upcycling",
+},
 ];
 
 const dataportfolio = [{
@@ -136,9 +171,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "prerna@nooffice.no",
+    YOUR_FONE: "46217143",
+    description: "Feel free to ping me regarding all your design needs. I am a great listner so... :) ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
